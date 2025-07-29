@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, MapPin, Music, Users, Star } from 'lucide-react';
+import { Calendar, MapPin, Music, Users, Star, Clock } from 'lucide-react';
 
 const Conciertos = () => {
   const proximasActuaciones = [
