@@ -143,7 +143,7 @@ const Contratar = () => {
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">Email</h4>
-                  <p className="text-coral-light">richard1978_1@hotmail.com</p>
+                  <p className="text-coral-light">info@coraltierrasaltas.com</p>
                 </div>
               </motion.div>
 
