@@ -1,22 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 import { Play, Music, Calendar, Users } from 'lucide-react';
 
 const Hero = () => {
-  const scrollToSection = (href) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(128, 0, 32, 0.3)), url('https://images.unsplash.com/photo-1565971469177-852ce53c60cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHw0fHxjaG9pciUyMHBlcmZvcm1hbmNlfGVufDB8fHxibGFja19hbmRfd2hpdGV8MTc1Mzc4MjEyNXww&ixlib=rb-4.1.0&q=85')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(128, 0, 32, 0.3)), url('https://images.pexels.com/photos/4028878/pexels-photo-4028878.jpeg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -113,22 +107,28 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1 }}
           >
-            <motion.button
-              onClick={() => scrollToSection('#contratar')}
-              className="bg-coral-maroon hover:bg-coral-light text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 elegant-hover shadow-lg"
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Contrátanos
-            </motion.button>
-            <motion.button
-              onClick={() => scrollToSection('#historia')}
-              className="glass border-2 border-coral-maroon hover:bg-coral-maroon text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 elegant-hover"
+              <Link
+                to="/contratar"
+                className="bg-coral-maroon hover:bg-coral-light text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 elegant-hover shadow-lg inline-block"
+              >
+                Contrátanos
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              Conoce nuestra historia
-            </motion.button>
+              <Link
+                to="/historia"
+                className="glass border-2 border-coral-maroon hover:bg-coral-maroon text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 elegant-hover inline-block"
+              >
+                Conoce nuestra historia
+              </Link>
+            </motion.div>
           </motion.div>
         </motion.div>
 
