@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
-import { Phone, Mail, MapPin, Calendar, Heart, Music, Church, Users } from 'lucide-react';
+import { Phone, Mail, MapPin, Calendar, Heart, Music, Church, Users, Clock } from 'lucide-react';
 
 const Contratar = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
