@@ -89,7 +89,7 @@ const Unete = () => {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.pexels.com/photos/6193851/pexels-photo-6193851.jpeg"
+              src="https://images.unsplash.com/photo-1599866193011-348f9eb29868?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxtdXNpYyUyMGxlc3NvbnN8ZW58MHx8fHwxNzUzNzg1NDM4fDA&ixlib=rb-4.1.0&q=85"
               alt="Únete a la Coral"
               className="w-full h-96 object-cover rounded-lg shadow-2xl"
             />
