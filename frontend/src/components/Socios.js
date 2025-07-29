@@ -110,7 +110,7 @@ const Socios = () => {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1620175406441-1355276b45e5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxjaG9pciUyMHBlcmZvcm1hbmNlfGVufDB8fHxibGFja19hbmRfd2hpdGV8MTc1Mzc4MjEyNXww&ixlib=rb-4.1.0&q=85"
+              src="https://images.unsplash.com/photo-1482627988233-7c68311232ea?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxjaG9pcnxlbnwwfHx8fDE3NTM3ODU0MDB8MA&ixlib=rb-4.1.0&q=85"
               alt="Socios de la Coral"
               className="w-full h-96 object-cover rounded-lg shadow-2xl"
             />
