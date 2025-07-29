@@ -202,7 +202,7 @@ const Repertorio = () => {
             </div>
             <div className="text-center">
               <img
-                src="https://images.pexels.com/photos/6193852/pexels-photo-6193852.jpeg"
+                src="https://images.unsplash.com/photo-1702338346840-22a28d86d0e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxjbGFzc2ljYWwlMjBtdXNpYyUyMHNjb3Jlc3xlbnwwfHx8fDE3NTM3ODU0NDZ8MA&ixlib=rb-4.1.0&q=85"
                 alt="Tradición musical local"
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
