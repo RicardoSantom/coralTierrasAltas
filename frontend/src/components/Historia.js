@@ -68,8 +68,8 @@ const Historia = () => {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1542990115-b0a05bb92698?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxjaG9pciUyMHBlcmZvcm1hbmNlfGVufDB8fHxibGFja19hbmRfd2hpdGV8MTc1Mzc4MjEyNXww&ixlib=rb-4.1.0&q=85"
-              alt="Director de la Coral"
+              src="https://images.unsplash.com/photo-1548795835-264877304664?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxjaG9pcnxlbnwwfHx8fDE3NTM3ODU0MDB8MA&ixlib=rb-4.1.0&q=85"
+              alt="Grupo coral actuando"
               className="w-full h-96 object-cover rounded-lg shadow-2xl"
             />
           </motion.div>
