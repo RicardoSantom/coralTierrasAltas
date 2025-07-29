@@ -38,7 +38,7 @@ const Conciertos = () => {
     {
       titulo: 'Ciclo CEB Ledo del Pozo',
       descripcion: 'Recuperación y puesta en valor del patrimonio musical de tradición oral de las comarcas del norte zamorano.',
-      imagen: 'https://images.unsplash.com/photo-1488630228244-bcdf33562a43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2Mzl8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwaGFsbHxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTM3ODIxMzZ8MA&ixlib=rb-4.1.0&q=85',
+      imagen: 'https://images.unsplash.com/photo-1458639817867-2c9d4c5dcad4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxjb25jZXJ0JTIwaGFsbHxlbnwwfHx8fDE3NTM3ODU0MDV8MA&ixlib=rb-4.1.0&q=85',
       localidades: ['Santa Marta de Tera', 'San Cristóbal de Entreviñas', 'Arrabalde', 'Codesal', 'Castrocalbón', 'Mombuey', 'Cerdillo de Sanabria'],
       destacado: 'Con el patrocinio del Centro de Estudios Benaventanos'
     },
