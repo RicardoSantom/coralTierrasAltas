@@ -45,7 +45,7 @@ const Conciertos = () => {
     {
       titulo: 'Sanabria y Carballeda, al calor de la Música',
       descripcion: 'Acercar la cultura musical a las zonas rurales más alejadas de la provincia de Zamora.',
-      imagen: 'https://images.pexels.com/photos/269140/pexels-photo-269140.jpeg',
+      imagen: 'https://images.unsplash.com/photo-1519682718457-c82ce8296645?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwyfHxjb25jZXJ0JTIwaGFsbHxlbnwwfHx8fDE3NTM3ODU0MDV8MA&ixlib=rb-4.1.0&q=85',
       localidades: ['Peque', 'Rabanillo', 'Cional', 'Rábano', 'Cobreros', 'Vigo de Sanabria', 'Muelas de los Caballeros', 'Calabor', 'Ribadelago', 'Galende'],
       destacado: 'Patrocinado por la Diputación de Zamora'
     }
