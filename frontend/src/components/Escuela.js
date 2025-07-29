@@ -76,7 +76,7 @@ const Escuela = () => {
             viewport={{ once: true }}
           >
             <img
-              src="https://images.unsplash.com/photo-1593678779327-f3c098ca0230?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwzfHxjaG9pciUyMHBlcmZvcm1hbmNlfGVufDB8fHxibGFja19hbmRfd2hpdGV8MTc1Mzc4MjEyNXww&ixlib=rb-4.1.0&q=85"
+              src="https://images.unsplash.com/photo-1519076976365-9c64dbd98317?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGxlc3NvbnN8ZW58MHx8fHwxNzUzNzg1NDM4fDA&ixlib=rb-4.1.0&q=85"
               alt="Escuela de Música"
               className="w-full h-96 object-cover rounded-lg shadow-2xl"
             />
